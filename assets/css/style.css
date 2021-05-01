@@ -45,3 +45,21 @@ header nav ul li a {
     text-decoration: none;
     border-bottom: 2px solid #59c7c7;
 }
+
+
+.banner-section{
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 170px;
+    width: 100%;
+}
+.banner-section h2{
+    background: #59c7c7;
+    color: #404040;
+    display: inline;
+    float: right;
+    margin: 115px 80px 0 0;
+    padding: 5px;
+    font-size: 25px;
+}
