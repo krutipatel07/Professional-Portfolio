@@ -110,13 +110,28 @@ header nav ul li a {
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 15px;
-    background-image: url(../images/surf-report.jpg);
+    /* background-image: url(../images/surf-report.jpg); */
     background-size: cover;
     background-position: center;
     padding: 20px 0;
     min-height: 160px;
     display: flex;
     flex-direction: column;
+}
+.surf-support.flex-item{
+    background-image: url(../images/surf-support.jpg);
+}
+.led-wall.flex-item{
+    background-image: url(../images/led-wall.jpg);
+}
+.calculator.flex-item{
+    background-image: url(../images/calculator.jpg);
+}
+.food-order.flex-item{
+    background-image: url(../images/food-order.jpg);
+}
+.run-buddy.flex-item{
+    background-image: url(../images/run-buddy.jpg);
 }
 
 .flex-item div{
