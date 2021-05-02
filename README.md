@@ -1,6 +1,6 @@
 # Professional-Portfolio
 
-This project presents the professional portfolio.
+This project presents the professional portfolio page.
 
 ## Description
 
@@ -22,7 +22,7 @@ This project presents the professional portfolio.
 
 ## Screenshots
 
-* Images of working the professional portfolio site. 
+* Images of working professional portfolio site. 
 
 * Follow the path for the images: [./screenshots/portfolio.jpg]
 
