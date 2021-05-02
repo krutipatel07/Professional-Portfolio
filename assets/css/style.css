@@ -10,6 +10,7 @@ body {
 
 header{
     background-color: #444444;
+    padding-bottom: 10px;
 }
 
 .flex-box{
@@ -157,6 +158,7 @@ header nav ul li a {
 
 .contact-info ul li{
     margin: 0 5px;
+    margin-bottom: 10px;
 }
 .contact-info ul li a{
     padding: 0 9px;
@@ -165,10 +167,62 @@ header nav ul li a {
     text-decoration: none;
     border-bottom: 2px solid #393b4f;
     color: #393b4f;
+    margin-bottom: 5px;
 }
 .resume-detail p{
     font-size: 35px;
     text-align: center;
     border: 2px solid #393b4f;
     color: #393b4f;
+}
+
+@media screen and (max-width: 980px){
+    header nav {
+        margin-right: 10px;
+    }
+}
+@media screen and (max-width: 768px){
+    header h1{
+        font-size: 30px;
+        padding: 5px;
+    }
+    header nav ul li{
+        margin-bottom: 5px;
+    }
+    .container > div {
+        margin: 10px 0;
+    }
+    .flex-box h3 {
+        text-align: left;
+        padding: 5px;
+        font-size: 28px;
+    }
+    .banner-section h2{
+        font-size: 22px;
+    }
+    .about-text p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .flex-box > div:first-of-type {
+        padding: 12px;
+        flex: 100%;
+    }
+    .flex-container > div:first-of-type,
+    .flex-item {
+        min-height: 140px;
+    }
+    .flex-item div{
+        font-size: 14px;
+    }
+    .flex-item span {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 520px){
+    header nav ul{
+        margin-top: 0;
+    }
+
 }
