@@ -10,6 +10,7 @@ body {
 
 header{
     background-color: #444444;
+    padding-bottom: 10px;
 }
 
 .flex-box{
@@ -19,7 +20,7 @@ header{
 }
 
 header h1{
-    font-size: 35px;
+    font-size: 40px;
     color: #404040;
     background-color: #59c7c7;
     padding: 0 9px 0 60px;
@@ -31,12 +32,13 @@ header nav{
 }
 header nav ul{
     list-style-type: none;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 header nav ul li{
     margin: 0 5px;
 }
+
 header nav ul li a {
     padding: 0 9px;
     font-weight: lighter;
@@ -45,7 +47,6 @@ header nav ul li a {
     text-decoration: none;
     border-bottom: 2px solid #59c7c7;
 }
-
 
 .banner-section{
     background-image: url("../images/banner.jpg");
@@ -62,4 +63,166 @@ header nav ul li a {
     margin: 115px 80px 0 0;
     padding: 5px;
     font-size: 25px;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.container > div{
+    margin: 30px 0;
+}
+
+.flex-box h3{
+    flex: 1 25%;
+    text-align: right;
+    padding: 20px;
+    font-size: 34px;
+    color: #393b4f;
+}
+.flex-box > div:first-of-type{
+    flex: 3 75%;
+    padding: 20px;
+    border-left: 4px solid #57577df2;
+}
+
+.about-text p{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #393b4f;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.flex-container > div:first-of-type{
+    width: 100%;
+    min-height: 400px;
+}
+
+.flex-item{
+    align-items: flex-start;
+    border: 5px solid #59c7c7;
+    width: 48%;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    /* background-image: url(../images/surf-report.jpg); */
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    min-height: 160px;
+    display: flex;
+    flex-direction: column;
+}
+.surf-support.flex-item{
+    background-image: url(../images/surf-support.jpg);
+}
+.led-wall.flex-item{
+    background-image: url(../images/led-wall.jpg);
+}
+.calculator.flex-item{
+    background-image: url(../images/calculator.jpg);
+}
+.food-order.flex-item{
+    background-image: url(../images/food-order.jpg);
+}
+.run-buddy.flex-item{
+    background-image: url(../images/run-buddy.jpg);
+}
+
+.flex-item div{
+    margin-top: auto;
+    width: max-content;
+    background-color: #59c7c7;
+    color: #393b4f;
+    padding: 5px;
+}
+
+.flex-item span{
+    font-size: 16px;
+}
+
+.contact-info ul.flex-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact-info ul{
+    list-style-type: none;
+}
+
+.contact-info ul li{
+    margin: 0 5px;
+    margin-bottom: 10px;
+}
+.contact-info ul li a{
+    padding: 0 9px;
+    font-weight: 900;
+    font-size: 18px;
+    text-decoration: none;
+    border-bottom: 2px solid #393b4f;
+    color: #393b4f;
+    margin-bottom: 5px;
+}
+.resume-detail p{
+    font-size: 35px;
+    text-align: center;
+    border: 2px solid #393b4f;
+    color: #393b4f;
+}
+
+@media screen and (max-width: 980px){
+    header nav {
+        margin-right: 10px;
+    }
+}
+@media screen and (max-width: 768px){
+    header h1{
+        font-size: 30px;
+        padding: 5px;
+    }
+    header nav ul li{
+        margin-bottom: 5px;
+    }
+    .container > div {
+        margin: 10px 0;
+    }
+    .flex-box h3 {
+        text-align: left;
+        padding: 5px;
+        font-size: 28px;
+    }
+    .banner-section h2{
+        font-size: 22px;
+    }
+    .about-text p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .flex-box > div:first-of-type {
+        padding: 12px;
+        flex: 100%;
+    }
+    .flex-container > div:first-of-type,
+    .flex-item {
+        min-height: 140px;
+    }
+    .flex-item div{
+        font-size: 14px;
+    }
+    .flex-item span {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 520px){
+    header nav ul{
+        margin-top: 0;
+    }
+
 }
