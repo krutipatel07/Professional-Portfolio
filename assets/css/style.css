@@ -80,6 +80,9 @@ header nav ul li a {
     font-size: 34px;
     color: #393b4f;
 }
+.flex-box h3 span{
+    display: block;
+}
 .flex-box > div:first-of-type{
     flex: 3 75%;
     padding: 20px;
@@ -99,7 +102,10 @@ header nav ul li a {
     width: 100%;
 }
 
-.flex-container > div:first-of-type{
+.flex-container a{
+    text-decoration: none;
+}
+.flex-container > a:first-of-type{
     width: 100%;
     min-height: 400px;
 }
@@ -111,7 +117,6 @@ header nav ul li a {
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 15px;
-    /* background-image: url(../images/surf-report.jpg); */
     background-size: cover;
     background-position: center;
     padding: 20px 0;
@@ -119,19 +124,19 @@ header nav ul li a {
     display: flex;
     flex-direction: column;
 }
-.surf-support.flex-item{
+a.flex-item.surf-support{
     background-image: url(../images/surf-support.jpg);
 }
-.led-wall.flex-item{
+a.flex-item.led-wall{
     background-image: url(../images/led-wall.jpg);
 }
-.calculator.flex-item{
+a.flex-item.calculator{
     background-image: url(../images/calculator.jpg);
 }
-.food-order.flex-item{
+a.flex-item.food-order{
     background-image: url(../images/food-order.jpg);
 }
-.run-buddy.flex-item{
+a.flex-item.run-buddy{
     background-image: url(../images/run-buddy.jpg);
 }
 
@@ -196,6 +201,9 @@ header nav ul li a {
         text-align: left;
         padding: 5px;
         font-size: 28px;
+    }
+    .flex-box h3 span{
+        display: inline-block;
     }
     .banner-section h2{
         font-size: 22px;

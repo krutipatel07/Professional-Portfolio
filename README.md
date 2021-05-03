@@ -1,25 +1,16 @@
 # Professional-Portfolio
 
-This project presents the professional portfolio page.
+This project describes how to build a professional portfolio page.
 
 ## Description
 
-* The professional portfolio represents developer's details about them. Describes person's proffessional details like summary of qualification, intrests of area and etc.
-
-* It includes the area of work person is working or worked before. Shows the skills they have and where they implemented them.
-
-* Work experience is important part of the portfolio. It shows the years of experience person worked.
-
-* The skill set shows the knowledge.
-
-* It has working projects of the person.
-
-* Contact information to connect with the person.
+* This projects enables users/developers to showcase thier skills, qualifications, experience, 
+interests and other professional affiliations/details to employers. In addition, it will provide the users
+a way to present their current and published projects/web applications.
 
 ## Code Style
 
-* Following standared code style to easily understand and meet the WCAG.
-
+* Following standared code style according to the WCAG guidelines with annotations/comments for better understanding and easier execution.
 ## Screenshots
 
 * Images of working professional portfolio site. 
