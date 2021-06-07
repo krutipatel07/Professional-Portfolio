@@ -76,7 +76,12 @@ header nav ul li a {
     height: 170px;
     width: 100%;
 }
-
+.banner-section img{
+    display: inline-block;
+    height: 100%;
+    max-width: 100%;
+    float: right;
+}
 .banner-section h2{
     background: #59c7c7;
     color: #404040;
@@ -133,14 +138,14 @@ header nav ul li a {
     display: flex;
     flex-direction: column;
 }
-a.flex-item.surf-support{
-    background-image: url(../images/surf-support.jpg);
+a.flex-item.covid-project{
+    background-image: url(../images/covid-img.jpg);
 }
-a.flex-item.led-wall{
-    background-image: url(../images/led-wall.jpg);
+a.flex-item.password-generatore{
+    background-image: url(../images/password-generator.jpg);
 }
-a.flex-item.calculator{
-    background-image: url(../images/calculator.jpg);
+a.flex-item.code-quiz{
+    background-image: url(../images/code-quiz.png);
 }
 a.flex-item.food-order{
     background-image: url(../images/food-order.jpg);
