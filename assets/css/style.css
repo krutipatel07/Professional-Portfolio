@@ -80,7 +80,7 @@ header nav ul li a {
     display: inline-block;
     height: 100%;
     max-width: 100%;
-    float: right;
+    /* float: right; */
 }
 .banner-section h2{
     background: #59c7c7;
